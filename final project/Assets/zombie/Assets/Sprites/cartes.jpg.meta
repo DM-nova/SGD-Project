@@ -1,0 +1,1347 @@
+fileFormatVersion: 2
+guid: 5d0a64c3850560d489f8f131e5502d84
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cartes_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 943
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2045ed1012d04684681879ab72eb4a5b
+      internalID: -2114990078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 943
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6488167a859563d45bb3abd596d6fe87
+      internalID: 159335814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 943
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cf0538cab30614abbe874a55280ed0
+      internalID: 1190267724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 943
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabf33e0745176a4eb2827ffb3bf036e
+      internalID: 951493686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_4
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 943
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944692f45bba8084abce3f4e4a9640a8
+      internalID: -391126954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_5
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 943
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0518ea2ada962b469a803221e065223
+      internalID: -370097673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_6
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 943
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb3e71d014f50f4b83daa33bf1a30b3
+      internalID: 627613035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_7
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 943
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3550d3dec873a854f8c3c1a2a5f7bcf3
+      internalID: -1759810966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_8
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 943
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b59f23f7fd80e84daf4b390a4e86961
+      internalID: 1782805735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_9
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 758
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacd29de440ae9b4d91de1cd8a778a4f
+      internalID: -945873822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_10
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 758
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45087cb750bc5a44aac326c8b171f243
+      internalID: 328734624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_11
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 758
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ef7d78cfe21634b897090d1cf08960
+      internalID: 272356096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_12
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 758
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6614af66e1d2d946bf462c486129927
+      internalID: 1993326194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_13
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 758
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7af9a07ece2d643ab934733a20b222
+      internalID: 669365090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_14
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 758
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14703ff0b0188741b5b6b01ab6f5d45
+      internalID: 1038745924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_15
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 758
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bf4b98e13f56d45b3856baba381842
+      internalID: -1667293978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_16
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 758
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3396fe36c4549574d92aae0be1b88e26
+      internalID: -275199356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_17
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 758
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73e0ab2a1b1d0041b8e9675590fdf7e
+      internalID: -1710869115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_18
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 573
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4142592d7aeb1844826d525c73a3114
+      internalID: 1261954537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_19
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 573
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e975de2222aff1408b0e1c9fc5a6e59
+      internalID: -1644674251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_20
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 573
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c1d0680b3f23049ad90740e6831b7e
+      internalID: -1436808657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_21
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 573
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3a0ed49b425364da3f80a78a99f435
+      internalID: -1814398742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_22
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 573
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd09db3a3c1c7342b71654da56054ad
+      internalID: 632614475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_23
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 573
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b9f6f50dab5d843b7922ccaeadbb31
+      internalID: -1100792848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_24
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 573
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5dfa7fb2ac53640889d0ee3b58c65f
+      internalID: 1609871647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_25
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 573
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735666e5eb4261f47a02ebe9a961686c
+      internalID: 1517768900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_26
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 573
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee712d7d54da645499d5b4814a586ee5
+      internalID: -575479054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_27
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 388
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0a6c0e8e20f7640a5f9c0a1d7c7f3c
+      internalID: 300491062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_28
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 388
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf36dad9d8b4d74788847ccd4cb81ea
+      internalID: 155966101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_29
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 388
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bef8f64aae43cb4eb914b6c2071cd3d
+      internalID: -437639952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_30
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 388
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3cf77692bd8c94eabdd4901bcd8002
+      internalID: 1644737969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_31
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 388
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa5540e14bfcbf4ca6472bdc96a117e
+      internalID: 1213370136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_32
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 388
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fda39955800be74db18a3260d3db611
+      internalID: -1367092916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_33
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 388
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb01b9d6bbd7dbd4684ccdee6cd2c25a
+      internalID: -2052788945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_34
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 388
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ee1d4e81c6a0447b0e790739e34637
+      internalID: -1024044760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_35
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 388
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ac0453db5969547a42b9185ce68dc9
+      internalID: 57392513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_36
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 203
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004d31cf2b7b53741b24de70be258d7e
+      internalID: 660661268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_37
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 203
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7c895a321d08d41b6f9cacb73bcaa1
+      internalID: -1046122558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_38
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 203
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703e61a29213771459ffcbb6cdc0985c
+      internalID: -1100731121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_39
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 203
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711eb8014197b244e9c355cbdd9f825c
+      internalID: -1791778668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_40
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 203
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa32869781d025f4397f08e6195f5fc4
+      internalID: -1433765508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_41
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 203
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ea005c714173f4ea394dda7091abd4
+      internalID: 722507374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_42
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 203
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223465c6224d3e744a47db3f92671606
+      internalID: -798979259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_43
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 203
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c599276b12c2dc94092ae9c4ffc5f8f5
+      internalID: 1285400474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_44
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 203
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315134eacf0ef954f98ff967cfe033bd
+      internalID: 471549740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_45
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 18
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa1484321bfeeb4ebce133f0e4cad47
+      internalID: 1746263534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_46
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 18
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7dfb01efd604840b756746415bece7
+      internalID: 723706403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_47
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 18
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26906d6b73d2fb74ca50d38d5a38199f
+      internalID: 1142853028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_48
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 18
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e450786849d86c3468e7e2d7ee6177c1
+      internalID: -160999518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_49
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 18
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4498b12bc014ec47a0520243eb4b3d7
+      internalID: 2030129535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_50
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 18
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46bbb8276ede354298020d78e180207
+      internalID: 1653662433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_51
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 18
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4194b70a15dad22408dac19d5b57b650
+      internalID: 11029288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_52
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 18
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fecae08f1a286c4d97632fe4e59d9e0
+      internalID: 404908961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartes_53
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 18
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d23d87a180c724fbfa867037e7b832
+      internalID: 767826550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cartes_6: 627613035
+      cartes_51: 11029288
+      cartes_48: -160999518
+      cartes_23: -1100792848
+      cartes_24: 1609871647
+      cartes_7: -1759810966
+      cartes_43: 1285400474
+      cartes_47: 1142853028
+      cartes_26: -575479054
+      cartes_3: 951493686
+      cartes_30: 1644737969
+      cartes_25: 1517768900
+      cartes_31: 1213370136
+      cartes_39: -1791778668
+      cartes_17: -1710869115
+      cartes_22: 632614475
+      cartes_32: -1367092916
+      cartes_21: -1814398742
+      cartes_15: -1667293978
+      cartes_9: -945873822
+      cartes_33: -2052788945
+      cartes_0: -2114990078
+      cartes_28: 155966101
+      cartes_41: 722507374
+      cartes_2: 1190267724
+      cartes_10: 328734624
+      cartes_50: 1653662433
+      cartes_1: 159335814
+      cartes_42: -798979259
+      cartes_14: 1038745924
+      cartes_52: 404908961
+      cartes_13: 669365090
+      cartes_40: -1433765508
+      cartes_12: 1993326194
+      cartes_4: -391126954
+      cartes_19: -1644674251
+      cartes_37: -1046122558
+      cartes_5: -370097673
+      cartes_18: 1261954537
+      cartes_16: -275199356
+      cartes_38: -1100731121
+      cartes_35: 57392513
+      cartes_27: 300491062
+      cartes_11: 272356096
+      cartes_29: -437639952
+      cartes_8: 1782805735
+      cartes_34: -1024044760
+      cartes_36: 660661268
+      cartes_44: 471549740
+      cartes_45: 1746263534
+      cartes_20: -1436808657
+      cartes_49: 2030129535
+      cartes_46: 723706403
+      cartes_53: 767826550
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
