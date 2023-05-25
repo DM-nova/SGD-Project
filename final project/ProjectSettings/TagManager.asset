@@ -3,7 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Background
+  - House
+  - Bullet
+  - Sun
+  - Zombiev2
+  - Zombie
+  - Panel
+  - floor
+  - idk1
+  - idk
+  - Gem
+  - Obstacle
+  - EndLevel
+  - EmptyPath
   layers:
   - Default
   - TransparentFX
@@ -12,10 +26,10 @@ TagManager:
   - Water
   - UI
   - 
-  - 
-  - 
-  - 
-  - 
+  - Plant
+  - Zombie
+  - puzzle
+  - background
   - 
   - 
   - 
