@@ -6,25 +6,42 @@ public class SwipeManager1 : MonoBehaviour
 {
     public static bool tap, swipeLeft, swipeRight, swipeUp, swipeDown;
     private bool isDraging = false;
+    public bool s = false;
     private Vector2 startTouch, swipeDelta;
+    public MoveController MoveController;
 
+    void Start()
+    {
+        MoveController = FindObjectOfType<MoveController>();
+    }
     private void Update()
     {
+        
         tap = swipeDown = swipeUp = swipeLeft = swipeRight = false;
-        #region Standalone Inputs
-        if( Input.GetMouseButtonDown(0))
-        {
-            tap = true;
-            isDraging = true;
-            startTouch = Input.mousePosition;
-        }
-        else if(Input.GetMouseButtonUp(0))
-        {
-            isDraging = false;
-            Reset();
 
-        }
-        #endregion
+
+        if (MoveController.go == true)
+        {
+            #region Standalone Inputs
+            if (Input.GetMouseButtonDown(0))
+            {
+                s = true;
+                tap = true;
+                isDraging = true;
+                startTouch = Input.mousePosition;
+            }
+            else if (Input.GetMouseButtonUp(0))
+            {
+                isDraging = false;
+                Reset();
+
+            }
+            #endregion
+       
+
+
+
+
 
         #region Mobile Input
         if (Input.touches.Length > 0)
@@ -76,6 +93,7 @@ public class SwipeManager1 : MonoBehaviour
             }
             Reset();
         }
+        }
     }
 
     private void Reset()
@@ -84,3 +102,4 @@ public class SwipeManager1 : MonoBehaviour
         isDraging = false;
     }
 }
+

@@ -20,6 +20,9 @@
     <uses-feature
         android:name="android.hardware.vulkan.version"
         android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <uses-feature
         android:name="android.hardware.touchscreen"
         android:required="false" />
@@ -39,8 +42,8 @@
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
             android:hardwareAccelerated="false"
             android:launchMode="singleTask"
-            android:resizeableActivity="false"
-            android:screenOrientation="landscape"
+            android:resizeableActivity="true"
+            android:screenOrientation="userLandscape"
             android:theme="@style/UnityThemeSelector" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -51,6 +54,19 @@
             <meta-data
                 android:name="unityplayer.UnityActivity"
                 android:value="true" />
+            <meta-data
+                android:name="WindowManagerPreference:FreeformWindowSize"
+                android:value="@string/FreeformWindowSize_tablet" />
+            <meta-data
+                android:name="WindowManagerPreference:FreeformWindowOrientation"
+                android:value="@string/FreeformWindowOrientation_landscape" />
+
+            <layout
+                android:defaultHeight="1080px"
+                android:defaultWidth="2400px"
+                android:minHeight="1080px"
+                android:minWidth="1920px" />
+
             <meta-data
                 android:name="android.notch_support"
                 android:value="true" />
@@ -67,10 +83,18 @@
             android:value="True" />
         <meta-data
             android:name="unity.allow-resizable-window"
-            android:value="False" />
+            android:value="True" />
         <meta-data
             android:name="notch.config"
             android:value="portrait|landscape" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7599966418498848~5790234683" />
     </application>
 
 </manifest>

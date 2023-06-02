@@ -10,7 +10,7 @@ public class Timer : MonoBehaviour
     public Text text;
     public bool Finish;
     public static float time;
-    MoveController MoveController;
+    public MoveController MoveController;
 
 
 
@@ -20,7 +20,7 @@ public class Timer : MonoBehaviour
     {
 
         MoveController = FindObjectOfType<MoveController>();
-        time = 10;
+        time = 60;
         Finish = false;
     }
 
@@ -31,7 +31,7 @@ public class Timer : MonoBehaviour
             time -= Time.deltaTime;
             text.text = "" + Mathf.Round(time);
 
-            if (time <= 5)
+            if (time <= 10)
             {
                 text.color = Color.red;
             }

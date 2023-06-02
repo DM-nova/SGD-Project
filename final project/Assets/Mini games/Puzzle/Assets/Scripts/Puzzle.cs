@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Puzzle : MonoBehaviour
 {
-    public GameObject image1;
-    public GameObject image0;
+    public GameObject p1;
+    public GameObject p0;
     public NumberBox boxPrefab;
     public NumberBox[,] boxes = new NumberBox[4, 4];
 
@@ -43,11 +43,11 @@ public class Puzzle : MonoBehaviour
     {
         if (rand == 0)
         {
-            Instantiate(image0, new Vector2(-5, 2), Quaternion.identity);
+            Instantiate(p0, new Vector2(-6, 3), Quaternion.identity);
         }
         else if (rand == 1)
         {
-            Instantiate(image1, new Vector2(-5, 2), Quaternion.identity);
+            Instantiate(p1, new Vector2(-6, 3), Quaternion.identity);
         }
     }
     void Init()
@@ -88,13 +88,13 @@ public class Puzzle : MonoBehaviour
         from.UpdatePos(x + dx, y + dy);
         target.UpdatePos(x,y);
 
-        CheckCompletion(); 
+        //CheckCompletion(); 
     }
 
-   private bool CheckCompletion()
+ /*  private bool CheckCompletion()
     {
     
-        /*for (int y = 3; y >= 0; y--)
+        for (int y = 3; y >= 0; y--)
         {
              for (int x = 0; x < 4; x++)
              {
@@ -111,7 +111,7 @@ public class Puzzle : MonoBehaviour
                 }
              }
         }
-     */
+     
         for (int i = 0; i < gg.transform.childCount; i++)
         {
             //Debug.Log(gg.transform.GetChild(i).sprite.name);
@@ -132,7 +132,8 @@ public class Puzzle : MonoBehaviour
              }
         }
         return win;
-    }
+   */ 
+
 
     
 

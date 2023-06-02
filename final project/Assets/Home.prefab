@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3580862869176282334}
   - component: {fileID: 3580862869176282333}
   - component: {fileID: 3580862869176282332}
-  - component: {fileID: 3580862869176282335}
   m_Layer: 5
   m_Name: Home
   m_TagString: Untagged
@@ -122,7 +121,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3580862869176282335}
+      - m_Target: {fileID: 3826292041567262616, guid: 9967af4ae24febf488db905fac9d9aa0, type: 3}
         m_TargetAssemblyTypeName: MoveController, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 5
@@ -134,15 +133,3 @@ MonoBehaviour:
           m_StringArgument: Scene
           m_BoolArgument: 0
         m_CallState: 1
---- !u!114 &3580862869176282335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3580862869176282322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7493e44b670d6644b9ea05f0ea5e925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

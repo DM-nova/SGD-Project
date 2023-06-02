@@ -16,9 +16,10 @@ public class PlayerManager2 : MonoBehaviour
     public Text coinsText;
     public Text bluecoinsText;
     public Text yellowcoinsText;
-    public Timer Timer;
+    public Timer1 Timer1;
     public GameObject Wheel;
     public int Wincoin = 1;
+
     void Start()
     {
         gameOver = false;
@@ -32,23 +33,23 @@ public class PlayerManager2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(gameOver)
+
+        if (gameOver)
         {
             Time.timeScale = 0;
             gameOverPanel.SetActive(true);
         }
-        coinsText.text = "Coins:" + numberOfCoins;
-        bluecoinsText.text = "Coins:" + numberOfBlueCoins;
-        yellowcoinsText.text = "Coins:" + numberOfyellowCoins;
-
+        coinsText.text = ":" + numberOfCoins;
+        bluecoinsText.text = ":" + numberOfBlueCoins;
+        yellowcoinsText.text = ":" + numberOfyellowCoins;
 
         if (SwipeManager1.tap)
-           {
+        {
             isGameStarted = true;
             Destroy(startingText);
-       }
+        }
 
-        if (Timer.Finish == true)
+        if (Timer1.Finish == true)
         {
             if ((numberOfCoins >= Wincoin) && (numberOfBlueCoins >= Wincoin) && (numberOfyellowCoins >= Wincoin))
             {

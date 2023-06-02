@@ -387,6 +387,7 @@
 "Assets/Mini games/EndlessRun/Scripts/Sound1.cs"
 "Assets/Mini games/EndlessRun/Scripts/SwipeManager1.cs"
 "Assets/Mini games/EndlessRun/Scripts/TileManager2.cs"
+"Assets/Mini games/EndlessRun/Scripts/Timer1.cs"
 "Assets/Mini games/EndlessRun/Shaders/WorldCurver.cs"
 "Assets/Mini games/Puzzle/Assets/Scripts/NumberBox.cs"
 "Assets/Mini games/Puzzle/Assets/Scripts/Puzzle.cs"
